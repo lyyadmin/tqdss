@@ -1,0 +1,92 @@
+.datetimepicker {
+    background: #0067e6;
+    font-family:Microsoft YaHei;
+    font-size:14px;
+}
+.datetimepicker .datetimepicker-months table thead {
+	color:#FFF;
+    font-size: 12px;
+}
+.datetimepicker  .datetimepicker-months table tr td span {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.datetimepicker .datetimepicker-months table tbody {
+	background:#FFF;
+}
+.datetimepicker .datetimepicker-hours table tbody {
+	background:#FFF;
+}
+.datetimepicker .datetimepicker-hours table thead {
+	color:#0067e6;
+    font-size: 12px;
+}
+.datetimepicker .datetimepicker-minutes table tbody {
+	background:#FFF;
+}
+.datetimepicker .datetimepicker-minutes table thead {
+	color:#0067e6;
+    font-size: 12px;
+}
+.datetimepicker table tr td span:hover {
+    color: #333;
+}
+.datetimepicker .datetimepicker-days{
+	background: #FFF;
+}
+.datetimepicker .datetimepicker-days thead {
+	background: #0067e6;
+    font-size:12px;
+}
+.datetimepicker thead tr:first-child th:hover, .datetimepicker tfoot th:hover {
+    background: #0067e6;
+}
+.datetimepicker .datetimepicker-days tbody {
+	background: #FFF;
+    font-size:12px;
+}
+.datetimepicker .datetimepicker-days thead .dow{
+	background: #FFF;
+	color:#333;
+	font-weight:normal;
+}
+.datetimepicker .datetimepicker-days thead th{
+	font-weight:bold;
+	color:#FFF;
+}
+.datetimepicker td, .datetimepicker th {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.datetimepicker table tr td.active:active, .datetimepicker table tr td.active:hover:active, .datetimepicker table tr td.active.disabled:active, .datetimepicker table tr td.active.disabled:hover:active, .datetimepicker table tr td.active.active, .datetimepicker table tr td.active:hover.active, .datetimepicker table tr td.active.disabled.active, .datetimepicker table tr td.active.disabled:hover.active {
+    background: #0067e6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+    padding: 3px 6px;
+}
+[class*=" datetimepicker-dropdown"]::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #0067e6;
+}
+.datetimepicker .datetimepicker-hours span {
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.datetimepicker .datetimepicker-minutes span {
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.today{
+	color:#0067e6;
+}

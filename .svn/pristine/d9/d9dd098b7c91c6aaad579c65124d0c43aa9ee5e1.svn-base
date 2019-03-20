@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/jdbc.properties=UTF-8
+encoding//src/message.properties=UTF-8
+encoding//web/project/lzm/home/home.jsp=UTF-8
+encoding//web/system/sys/add-sys-role.jsp=UTF-8
+encoding//web/system/sys/update-sys-role.jsp=UTF-8
+encoding//web/system/sys/user-manager-update.jsp=UTF-8
+encoding/<project>=UTF-8

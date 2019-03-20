@@ -1,0 +1,41 @@
+.nav-tabs {
+	border-bottom:  1px solid  #ddd;
+	background: #1d5dfa;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #1d5dfa;
+    font-weight: bold;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #FFF;
+}
+.h3, h3 {
+    font-size: 24px;
+    color: #1d5dfa;
+    font-weight: bold;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: -26px;
+    margin-bottom: 10px;
+}
+thead{
+	border: 0;
+    background: #0e4dea url(../images/title_bg.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    font-weight: bold;
+}
+th, td {
+    text-align: center;
+}
+.table-hover>tbody>tr:hover {
+    background-color: #d9f4ff;;
+}

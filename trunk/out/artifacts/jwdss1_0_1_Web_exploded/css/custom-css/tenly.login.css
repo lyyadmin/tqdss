@@ -1,0 +1,233 @@
+
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family:'Microsoft YaHei';
+	overflow:hidden;
+	font-size:22px;
+	background:#2e109e;
+}
+img,table,tr,td,input,select{
+	margin:0;
+	padding:0;
+	border:0px;
+}
+select{
+	appearance:none;
+	-moz-appearance:none;/*?Firefox?*/
+	-webkit-appearance:none;/*?Safari?和?Chrome?*/
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+input{
+	outline:none;
+	backgroung:rgba(0, 0, 0);
+    color: #FFF;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #214ec1 inset;
+    color: #FFF;
+}
+input:autofill {
+    background-color: #FFF;
+    background-image: none;
+    color: #FFF;
+}
+input:focus{
+	border:0px;
+	outline:none;
+	backgroung:#FFF;
+    color: #FFF;
+}
+body{
+	background:url(../images/login/login_bg.png) no-repeat;
+	background-size:100% 100%;
+}
+#login_content{
+	position:relative;
+	width:1920px;
+	height:1080px;
+	text-align:center;
+}
+.login_icon{
+	position:absolute;
+	width:285px;
+	height:228px;
+	left:327px;
+	top:99px;
+}
+.login_title{
+	position:absolute;
+	width:660px;
+	height:51px;
+	left:138px;
+	top:386px;
+	background:url(../images/login/login_title.png) no-repeat 50% 0;
+	background-size:660px 51px;
+}
+.form_container{
+	position:absolute;
+	width:464px;
+	height:394px;
+	left:231px;
+	top:522px;
+	text-align:center;
+	border-radius:10px;
+	border:solid 3px #62dafe;
+}
+.form_container .user_login{
+	position:relative;
+	width:100%;
+	height:60px;
+	line-height:60px;
+	font-size:32px;
+	background:#09c6ff;
+	color:#FFF;
+}
+.form_container table{
+	position:relative;
+	width:100%;
+	height:260px;
+	margin-top:70px;
+}
+.form_container .login_line_box{
+	position:relative;
+	width:100%;
+	height:40px;
+	margin-top:0;
+}
+.form_container .nomargin_top{
+	margin-top:0;
+}
+.form_container .error_box{
+	position:relative;
+	width:290px;
+	height:30px;
+	margin-left:170px;
+	font-size:20px;
+}
+.form_container .error_box span{
+	margin-right:70px;
+}
+.form_container .login_line_box .user_icon{
+	position:absolute;
+	width:26px;
+	height:26px;
+	left:15px;
+	top:17px;
+}
+.form_container .login_line_box .user_name_label{
+	position:absolute;
+	width:92px;
+	height:40px;
+	line-height:40px;
+	color:#FFF;
+	left:66px;
+	font-size:22px;
+	text-align:left;
+}
+.form_container .login_line_box .user_name_input{
+	position:absolute;
+	width:238px;
+	height:38px;
+	left:160px;
+}
+.form_container .login_line_box .user_name_input input{
+	width:238px;
+	height:36px;
+	background:rgba(0,0,0,0);
+	border:solid 2px #62dafe;
+	border-radius:10px;
+	padding-left:10px;
+	color:#FFF;
+}
+.form_container .btn_bg{
+	display:block;
+	position:relative;
+	width:212px;
+	height:54px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:34px;
+	background-color: #09c6ff;
+	border-radius:10px;
+}
+.form_container .btn_bg img{
+	display:inline-block;
+	position:absolute;
+	width:19px;
+	height:28px;
+	left:45px;
+	top:13px;
+}
+.form_container .btn_bg input{
+	display:inline-block;
+	position:absolute;
+	width:212px;
+	height:54px;
+	line-height:54px;
+	text-align:left;
+	color:#FFF;
+	font-size:24px;
+	background-color: rgba(0,0,0,0);
+	padding-left:110px;
+	clear:both;
+}
+.form_container .checkbox_box{
+	display:block;
+	position:relative;
+	width:378px;
+	height:43px;
+	margin-left:51.5px;
+	margin-top:26px;
+	vertical-align: middle;
+	text-align:left;
+	border-radius:5px;
+}
+.form_container .checkbox_box .user_name_label{
+	padding-left:18px;
+}
+.meeting_icon_arrow{
+	position:relative;
+	padding-left:210px;
+}
+.user_meeting_label select{
+	position:absolute;
+	width:350px;
+	height:50px;
+	line-height:50px;
+	border:0px;
+	outline:none;
+	font-size:30px;
+	top:4.5px;
+	z-index:1;
+	background:rgba(0,0,0,0);
+}
+.user_meeting_label select option{
+	font-size:30px;
+	font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 50px;
+    height:50px;
+    line-height:50px;
+    padding: 0px;
+}
+.user_meeting_label select:after{
+	border-width: 10px;
+    border-left-color: #0288d1;
+    top: 20px;
+}
+.user_meeting_label select:focus{
+	border:0px;
+	outline:none;
+}
+.drop_down_icon{
+	position:absolute;
+	width:15px;
+	height:8px;
+	right:10px;
+	top:26px;
+}

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jwdss">
+    <output-path>$PROJECT_DIR$/out/artifacts/jwdss</output-path>
+    <root id="archive" name="jwdss.war">
+      <element id="artifact" artifact-name="jwdss1.0.1:Web exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jwdss1.0.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

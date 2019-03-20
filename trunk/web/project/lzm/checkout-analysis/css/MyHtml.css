@@ -1,0 +1,336 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.middle-cls {
+	display: table;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.form-inline {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+	padding-top: 130px;
+}
+
+.title {
+	text-align: center;
+	margin: 10px 50px 50px 50px;
+	font-family: Micrisoft YHei;
+	font-size: 60px;
+	color: #31b0d5;
+}
+
+table {
+	width: 299px;
+	margin-top: 2px;
+	box-shadow: 1px 2px 1px #ddd;
+}
+
+table tr td button {
+	width: 100%;
+}
+
+.btn {
+	background: rgba(255, 255, 255, 0.9);
+	border: solid 2px #ddd;
+	border-radius: 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btn:hover {
+	background: rgba(255, 255, 255, 1);
+	border: solid 2px #ccc;
+}
+
+.btn-primary {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+	background-color: #337ab7;
+	border: 1px solid transparent;
+}
+
+#dialog_mask {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	left: 0;
+	top: 0;
+	z-index: 10000;
+}
+
+.tenly_dialog {
+	display: block;
+	position: relative;
+	width: 320px;
+	height: 250px;
+	margin: auto;
+	padding: 24px 20px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.tenly_dialog div {
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.tenly_dialog div span {
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	color: #333333;
+	font-size: 16px;
+}
+
+.tenly_dialog div input,.tenly_dialog div input:focus,.tenly_dialog div input:hover
+	{
+	display: inline-block;
+	width: 175px;
+	height: 28px;
+	color: #333333;
+	outline: none;
+	border: solid 1px #DDDDDD;
+	background: #EEEEEE;
+	padding-left: 10px;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+.tenly_dialog div label {
+	display: inline-block;
+	position: relative;
+	width: 180px;
+	height: 30px;
+	font-size: 14px;
+	color: #F00;
+	vertical-align: top;
+	text-align: left;
+}
+
+i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	color: #FFFFFF;
+}
+
+.tenly_dialog div .mybtn {
+	width: 104px;
+	height: 32px;
+	background: #01A7C1;
+	color: #FFFFFF;
+	line-height: 32px;
+	text-align: center;
+	padding: 0;
+	border-radius: 5px;
+	outline: none;
+	font-size: 16px;
+	margin: 10px 15px;
+}
+
+.tenly_dialog div .mybtn:hover {
+	background: #009F95;
+	cursor: pointer;
+}
+
+.tenly_dialog div .tip {
+	color: #FFFFFF;
+}
+
+select {
+	width: 80%;
+	height: 28px;
+}
+
+.btn-group {
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.btn_bg,.btn_bg:focus,.btn_bg:hover {
+	width: 60px;
+	height: 36px;
+	border: 0;
+	outline: none;
+	margin-left: 5px;
+}
+
+.form-inline .form-control {
+	display: inline-block;
+	width: 70px;
+	vertical-align: middle;
+}
+
+.btn-primary {
+	width: 80px;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+td,th {
+	padding: 0;
+	width: 33.3%;
+}
+
+.title-text {
+	display: block;
+	width: 780px;
+	height: 60px;
+	margin: 10px auto;
+}
+
+.title-subtext {
+	display: block;
+	width: 328px;
+	height: 46px;
+	margin: 10px auto;
+}
+
+.markway_logo {
+	width: 80px;
+	height: 66px;
+}
+
+.others_logo {
+	width: 80px;
+	height: 66px;
+}
+
+.logopo {
+	position: absolute;
+	width: 100%;
+	top: 22px;
+}
+
+.titlepo {
+	position: absolute;
+	width: 100%;
+	top: 142px;
+}
+
+.label-cls {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.zhanwei {
+	display: inline-block;
+	width: 37px;
+	height: 26px;
+}
+
+.kuang {
+	display: block;
+	position: relative;
+	width: 400px;
+	height: 292px;
+	background: url(../images/vbg.png) center center no-repeat;
+	background-size: 100% 100%;
+	margin: 40px auto;
+	margin-top: 10%;
+}
+
+.kuang .title {
+	display: block;
+	position: relative;
+	height: 65px;
+	line-height: 65px;
+	font-size: 30px;
+	font-family: "Source Han Sans CN";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin:0;
+}
+
+.kuang .subtitle {
+	display: block;
+	position: relative;
+	height: 46px;
+	line-height: 46px;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "Source Han Sans CN";
+	color: rgb(54, 54, 54);
+	text-align: center;
+}
+
+.kuang #verification {
+	display: block;
+	width: 233px;
+	height: 40px;
+	background: url(../images/inputbox.png) center center no-repeat;
+	background-size: 100% 100%;
+	border: 0;
+	outline: none;
+	margin: 15px auto;
+	padding-left: 15px;
+}
+
+.kuang .btn-box {
+	text-align: center;
+	margin-top: 42px;
+}
+
+.kuang .btn-box .vf-btn {
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 40px;
+	border: 0;
+	outline: none;
+	margin: 0 20px;
+}
+
+.kuang #cansel-btn {
+	background: url(../images/cansel.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.kuang #confirm-btn {
+	background: url(../images/confirm.png) center center no-repeat;
+	background-size: 100% 100%;
+}

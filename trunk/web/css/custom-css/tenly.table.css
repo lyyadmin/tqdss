@@ -1,0 +1,126 @@
+body{
+	font-family:Microsoft YaHei;
+	font-size:14px;
+}
+.ui-widget-header {
+    border: 0;
+    background: #0e4dea url(../images/title_bg.png) 0 0 no-repeat;
+    background-size:100% 100%;
+    color: #ffffff;
+    font-weight: bold;
+}
+.ui-jqgrid .ui-jqgrid-titlebar {
+    font-size: 16px;
+    padding: .3em .2em .2em .3em;
+    position: relative;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-top: 0 none;
+}
+..ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-weight: bold;
+    color: rgb(46, 110, 158);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background: #5facef;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(14, 77, 234);
+    background: #628fff;
+}
+.ui-widget-content {
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color: rgb(34, 34, 34);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 118, 193);
+    background:#FFF;
+}
+.ui-jqgrid-bdiv{
+	background:#FFF;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #2e6e9e;
+    background: #dfeffc url(images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #263238;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid rgb(19, 118, 193);
+	background:#FFF;
+	font-weight: bold;
+	color: #1d5987;
+}
+.ui-jqgrid tr.jqgrow td {
+    font-weight: normal;
+    overflow: hidden;
+    height: 44px;
+    padding: 0 2px 0 2px;
+    border-bottom-width: 1px;
+    border-bottom-color: inherit;
+    border-bottom-style: solid;
+    font-size: 14px;
+}
+.ui-jqgrid .ui-jqgrid-htable th div {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+}
+.ui-widget {
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    border: 0;
+}
+.ui-jqgrid tr.jqgrow {
+    outline-style: none;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0px;
+}
+.ui-jqgrid tr.ui-row-ltr td {
+    border-right-width: 1px;
+    border-right-color: #2e6e9e;
+    border-right-style: solid;
+}
+
+div.ui-jqgrid-view table.ui-jqgrid-btable {
+	 border-style: none;
+	 border-top-style: none;
+	 border-collapse: separate;
+}	
+div.ui-jqgrid-view table.ui-jqgrid-btable td {
+	 border-left-style: none;
+}
+div.ui-jqgrid-view table.ui-jqgrid-htable {
+	 border-style: none;
+	 border-top-style: none;
+	 border-collapse: separate;
+}
+div.ui-jqgrid-view table.ui-jqgrid-btable th {
+	 border-left-style: none;
+}

@@ -1,0 +1,255 @@
+body{
+	font-family:Microsoft YaHei;
+	font-size:14px;
+}
+#topbar .navbar-header {
+    width: 200px;
+    height: 100%;
+    background: rgba(0,0,0,0);
+    text-align: center;
+}
+#topbar .topbar-main {
+    display: block;
+    height: 61px;
+    background: url(../images/head_bg.png) no-repeat;
+    background-size:100% 100%;
+}
+#sidebar {
+    background: url(../images/sidebar_bg.png) no-repeat;
+    background-size:100% 100%;
+}
+@media (min-width: 768px) {
+    .navbar-static-side {
+        z-index: 1;
+        position: absolute;
+        width: 200px;
+    }
+    #page-wrapper {
+        position: relative;
+        margin: 0 0 0 200px;
+        padding: 0;
+    }
+}
+.navbar-static-side ul li .nav-second-level li a {
+    padding: 14px 15px 14px 20px;
+    color: #FFF;
+    background:#0940ce;
+}
+.navbar-static-side ul li a:hover,
+.navbar-static-side ul li a:focus {
+    background: url(../images/left-menu-bg.png) no-repeat;
+    background-size:100% 100%;
+    transition: 0.2s all ease-in-out;
+    outline: none;
+}
+.navbar-static-side ul li.active a {
+    background: url(../images/menu_avtive.png) no-repeat;
+    background-size:100% 100%;
+    outline: none;
+}
+.navbar-static-side ul li {
+    border-bottom: 0;
+}
+.navbar-static-side ul li .nav-second-level li {
+    border-bottom: 0;
+}
+.navbar-static-side ul li .nav-second-level li .nav-third-level li {
+    border-bottom: 0;
+}
+.navbar-static-side ul li .nav-second-level li .nav-third-level li a {
+    padding: 15px 15px 15px 30px;
+    background: #e5e5e5;
+    color: #00F;
+}
+.navbar-static-side ul li .nav-second-level li .nav-third-level li.active a,
+.navbar-static-side ul li .nav-second-level li .nav-third-level li:hover a,
+.navbar-static-side ul li .nav-second-level li .nav-third-level li:focus a {
+    color: #238bc4;
+}
+.navbar-static-side ul li .nav-second-level li .nav-third-level li.active a .submenu-title,
+.navbar-static-side ul li .nav-second-level li .nav-third-level li:hover a .submenu-title,
+.navbar-static-side ul li .nav-second-level li .nav-third-level li:focus a .submenu-title {
+    color: #00f;
+    border-bottom:solid 2px #00f;
+}
+#topbar .navbar-header #logo span.logo-text{
+	display:inline-block;
+	position:relative;
+	width:auto;
+	height:60px;
+	background:url(../images/markway_logo.png) no-repeat;
+	background-size:60px 50px;
+	background-position:80px 0px;
+	-ms-transform:scale(1);
+	-webkit-transform:scale(1);
+	transform:scale(1);
+	margin-top:0;
+	padding-right:83px;
+	padding-top:0;
+}
+#topbar .navbar-top-links li.open > a:hover,
+#topbar .navbar-top-links li.open > a:focus {
+    background: rgba(0,0,0,0);
+}
+#topbar .navbar-top-links li.open > a {
+    background: rgba(0,0,0,0);
+    color: #ffffff !important;
+}
+#topbar .topbar-main #menu-toggle:hover, #topbar .topbar-main #menu-toggle:focus {
+    color: #0a7ebd;
+}
+#topbar {
+    background: #ffffff;
+    width: 100%;
+    height: 60px;
+}
+.navbar-brand {
+    padding: 4px 4px;
+}
+.others_icon{
+	width:63px;
+	height:50px;
+}
+.header_title{
+	position:absolute;
+	width:auto;
+	height:100%;
+	left:252px;
+	top:0px;
+}
+.header_title img{
+	position:relative;
+	width:330px;
+	height:28px;
+	top: 18px;
+}
+.navbar-static-side ul li.user-panel {
+    padding: 15px;
+    display: none;
+}
+.fa.arrow:before {
+    content: "\f105";
+        font-size: 20px;
+}
+.fa-angle-right:before {
+    content: "";
+}
+.arrow {
+    float: right;
+    margin-top: 0px;
+}
+.navbar {
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 20px;
+    border: 0;
+}
+#date {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    right: 0;
+    top: 0;
+    color: #FFF;
+    font-size: 24px;
+    text-align: center;
+}
+.fa-angle-double-right:before {
+    content: "";
+}
+#topbar .navbar-top-links li:last-child {
+    margin-right: 0;
+}
+#topbar .navbar-top-links li.topbar-user a {
+    padding: 0 30px;
+}
+.dropdown {
+    padding: 0px 15px 0px;
+    height:58px;
+    line-height: 58px;
+}
+.navbar-static-side ul li a span.menu-title {
+    margin-left: 40px;
+}
+.fa-fw{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background:url(../images/settings.png) 0 center no-repeat;
+	background-size:20px 20px;
+}
+.fa-home-1{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background:url(../images/shouye.png) 0 center no-repeat;
+	background-size:20px 20px;
+}
+.fa-home-2{
+	position:absolute;
+	width:22px;
+	height:20px;
+	background:url(../images/zongticaozuo.png) 0 center no-repeat;
+	background-size:22px 20px;
+}
+.fa-home-3{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background:url(../images/caozuodianfenxi.png) 0 center no-repeat;
+	background-size:20px 20px;
+}
+.fa-home-4{
+	position:absolute;
+	width:22px;
+	height:20px;
+	background:url(../images/zuoyexiguan.png) 0 center no-repeat;
+	background-size:22px 20px;
+}
+.fa-home-5{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background:url(../images/ganbulvzhi.png) 0 center no-repeat;
+	background-size:20px 20px;
+}
+.fa-home-6{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background:url(../images/settings.png) 0 center no-repeat;
+	background-size:20px 20px;
+}
+.fa-home-604{
+	position:absolute;
+	width:22px;
+	height:20px;
+	background:url(../images/exit_work_analysis.png) 0 center no-repeat;
+	background-size:22px 20px;
+}
+.navbar-static-side ul li .nav-second-level li.active a,
+.navbar-static-side ul li .nav-second-level li:hover a,
+.navbar-static-side ul li .nav-second-level li:focus a {
+    color:#ffca00;
+}
+.navbar-static-side ul li .nav-second-level li .select-li{
+	color:#ffca00;
+}
+.navbar-static-side ul li .nav-second-level li a span.submenu-title {
+	display:block;
+	width:100%;
+    text-align: center;
+    margin-left:0;
+}
+.navbar-static-side ul li .nav-second-level li a {
+    padding: 10px 15px;
+    color: #FFF;
+    background: #0940ce;
+}
+.navbar-static-side ul li a {
+    background: url(../images/left-menu-bg.png) no-repeat;
+    background-size:100% 100%;
+    color: #FFFFFF;
+    padding: 12px 15px;
+}
